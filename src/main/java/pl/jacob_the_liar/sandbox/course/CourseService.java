@@ -22,9 +22,9 @@ public class CourseService {
     private CourseRepository courseRepository;
 
 
-    public List<Course> getAllCourses() {
+    public List<Course> getCoursesByTopicId(int topicId) {
         List<Course> courses = new ArrayList<>();
-        courseRepository.findAll()
+        courseRepository.findByTopicId(topicId)
                 .forEach(courses::add);
         return courses;
     }
