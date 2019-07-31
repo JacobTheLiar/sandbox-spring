@@ -8,6 +8,7 @@
     <groupId>pl.jacob_the_liar.sandbox</groupId>
     <artifactId>SandBox</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
 
     <parent>
